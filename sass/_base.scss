@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@400;500;600&family=Montserrat:wght@100;200;300;400;500;700&display=swap');
+
+//Font family
+$font-montserrat: 'Montserrat', sans-serif;
+
+//font size
+$text-xs: 1rem;
+$text-sm: 1.4rem;
+$text-md: 2rem;
+$text-lg: 4rem;
+
+//spaces
+$space-xs: 0.5rem;
+
+$space-sm: 1rem;
+$space-md: 2.5rem;
+$space-lg: 3rem;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: $font-montserrat;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: #a9a9a9;
+}

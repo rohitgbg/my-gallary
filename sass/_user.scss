@@ -1,0 +1,64 @@
+.user {
+  &__container {
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+  }
+
+  &__info {
+    text-align: center;
+    margin-bottom: $space-md;
+    img {
+      width: 14rem;
+      border-radius: 16px;
+      margin-bottom: $space-sm;
+    }
+
+    &-name {
+      font-weight: 500;
+      font-size: 2rem;
+      color: #4e5150;
+      margin-bottom: $space-xs;
+    }
+
+    &-location {
+      font-weight: 500;
+      font-size: 1.6rem;
+      color: #a9a9a9;
+    }
+  }
+
+  &__statistics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
+    gap: 1.5rem;
+
+    justify-content: center;
+    &-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      background: #e5e5e5;
+      border-radius: 12px;
+      padding: 2.5rem;
+    }
+
+    &-number {
+      font-weight: 600;
+      font-size: 1.5rem;
+      color: #4e5150;
+    }
+
+    &-type {
+      font-family: Montserrat;
+
+      font-weight: 600;
+      font-size: 1.5rem;
+
+      color: #bdbdbd;
+    }
+  }
+}
